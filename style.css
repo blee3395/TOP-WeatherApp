@@ -1,0 +1,44 @@
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  gap: 5px;
+
+  background-color: azure;
+}
+
+.search.input {
+  height: 24px;
+  border: hidden;
+
+  border-bottom: 2px solid black;
+}
+
+.search.btn img, .search.btn {
+  height: 24px;
+
+  border: none;
+  background-color: none;
+}
+
+.search.btn {
+  height: 24px;
+  width: 24px;
+  
+  border: solid 2px black;
+}
+
+.current.time .date {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.current.time .clock {
+  display: flex;
+  flex-direction: row;
+
+  gap: 4px;
+}
+
